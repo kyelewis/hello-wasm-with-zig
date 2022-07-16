@@ -1,0 +1,17 @@
+{
+  "name": "@kyedoesdev/hello-wasm-with-zig",
+  "version": "0.1.0",
+  "description": "Hello, World for WASM with zig",
+  "main": "src/web/index.ts",
+  "scripts": {
+    "start": "node -r esbuild-register scripts/dev.ts",
+    "build:zig": "zig build"
+  },
+  "author": "Kye Lewis <kye@kyedoesdev.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.14.49",
+    "esbuild-register": "3.3.3",
+    "vite": "3.0.0"
+  }
+}
